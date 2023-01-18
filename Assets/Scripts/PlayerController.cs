@@ -16,8 +16,8 @@ public class PlayerController : MonoBehaviour {
 
 	void Update ()
 	{
-
-		rotation = joystick.Horizontal; //Input.GetAxisRaw("Horizontal")
+        rotation = joystick.Horizontal;
+        //rotation = Input.GetAxisRaw("Horizontal");
     }
 
 	void FixedUpdate ()

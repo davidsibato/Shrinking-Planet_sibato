@@ -11,7 +11,7 @@ public class Planet : MonoBehaviour {
 
 	public static float Score
 	{
-		get { return Size * 45f; }
+		get { return Size * 63f; }
 	}
 
 	private static Transform myTransform;

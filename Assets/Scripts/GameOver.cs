@@ -5,12 +5,12 @@ public class GameOver : MonoBehaviour {
 
 	void Update ()
 	{
-        if (Input.touchCount > 0 )
-        {
-            GameManager.instance.Restart();
-        }
+		if (Input.GetButtonDown("Jump"))
+		{
+			GameManager.instance.Restart();
+		}
 
-        GetComponent<RectTransform>().localScale = Vector3.one * 2;//Planet.Size;
+		GetComponent<RectTransform>().localScale = Vector3.one * Planet.Size;
 	}
 
 	public void Menu ()

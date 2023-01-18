@@ -1,13 +1,15 @@
 fileFormatVersion: 2
 guid: 87f463e672b5dc84ab1b6092b536ccf5
+timeCreated: 1492950891
+licenseType: Pro
 TrueTypeFontImporter:
-  externalObjects: {}
   serializedVersion: 4
-  fontSize: 26
-  forceTextureCase: -1
+  fontSize: 16
+  forceTextureCase: -2
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
+  fontName: Roboto
   fontNames:
   - Roboto
   fallbackFontReferences:
@@ -18,8 +20,6 @@ TrueTypeFontImporter:
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
-  useLegacyBoundsCalculation: 0
-  shouldRoundAdvanceValue: 1
   userData: 
   assetBundleName: 
   assetBundleVariant: 
